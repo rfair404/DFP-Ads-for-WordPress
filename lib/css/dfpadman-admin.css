@@ -1,0 +1,42 @@
+#icon-dfp{
+    background-image: url('../img/dfp-sb-logo-small.png');
+    background-position: 15px 0;
+}
+#dfpadman_main_head{
+    float: left;
+    clear: both;
+    width: 100%;
+    min-height: 200px;
+}
+.dfp_position_wrap{
+    float: left;
+    width: 90%;
+    padding: 1%;
+}
+.dfp_position_wrap:nth-child(2n){
+    background: whitesmoke;
+}
+.scary{
+    color: red;
+}
+.dfpadman-github{
+    padding-top: 3%;
+}
+.dfpadman_position_block{
+    float: left;
+    min-width: 200px;
+    width: 35%;
+    margin-right: 5%;
+}
+.dfp_position_block_conditionals{
+    width: 55%;
+}
+
+.dfp_position_block_conditionals .check-wrap{
+    float: left;
+    margin-right: 10px;
+}
+.dfp_position_block_conditionals input[type="checkbox"]{
+    padding: 5px;
+    margin: 0 5px 0 0;
+}
